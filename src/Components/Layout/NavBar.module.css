@@ -1,0 +1,36 @@
+.navContainer {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 10px; /* Menos padding para telas menores */
+    background-color: #bdbdbd;
+    flex-direction: column; /* Itens empilhados em telas menores */
+}
+
+.navContainer ul {
+    width: 100%; /* Ocupar a largura total da tela no mobile */
+    margin-left: 0; /* Alinhar ao centro */
+    padding: 0;
+    display: flex;
+    list-style: none;
+    justify-content: space-around; /* Espaçamento entre itens */
+}
+
+.navContainer ul li {
+    margin-left: 0; /* Sem margem para telas menores */
+}
+
+.navContainer ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px; /* Tamanho de fonte reduzido para mobile */
+}
+
+.navContainer ul li a:hover{
+    color: yellow;
+    font-size: 17px;
+    transition: color 0.4s ease;
+    transition: font-size 0.4 ease;
+}
+
+

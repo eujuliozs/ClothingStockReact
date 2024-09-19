@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ocupa toda a altura da tela */
+    background-color: #f5f5f5; /* Cor de fundo para o layout */
+  }
+  
+  .entityDetailsCard {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+    width: 80%; /* Preenche 80% da largura da tela */
+    max-width: 600px; /* Limite máximo de largura */
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Espaçamento entre elementos */
+  }
+  
+  .entityDetailsCard ul {
+    list-style-type: none; /* Remove marcadores da lista */
+    padding: 0; /* Remove o padding padrão da lista */
+  }
+  
+  .entityDetailsCard li {
+    margin-bottom: 10px; /* Espaçamento entre os itens */
+    font-size: 18px; /* Tamanho de fonte */
+    color: #333; /* Cor do texto */
+  }
+  
+  .entityDetailsCard a {
+    text-decoration: none; /* Remove sublinhado */
+    color: #1f3d5e; /* Cor do link */
+    font-weight: bold; /* Negrito para o link */
+  }
+  
+  .entityDetailsCard button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #d9534f; /* Cor de fundo do botão */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .entityDetailsCard button:hover {
+    background-color: #c9302c; /* Cor ao passar o mouse */
+  }
+  
